@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Nikhil Male" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Nikhil Male">Nikhil Male</h1>
+
+          <p class="title">Mechanical Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:nikhilmale1903@gmail.com" class="contact-link">nikhilmale1903@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 80746 ***37</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">March 19, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Warangal, Telangana, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+     <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        
+        <section class="about-text">
+          <p>
+            Welcome to my portfolio! I'm <b>Nikhil Male</b>, a penultimate year Mechanical Engineering student at VNR VJIET. With expertise in SolidWorks, ANSYS, Mastercam, and more, I'm passionate about innovation and problem-solving. My diverse skill set includes engineering mechanics, thermodynamics, and design. 
+          </p>
+
+          <p>
+            I thrive in collaborative environments, possess a strong work ethic, and am always eager to take on new challenges. Explore my projects and connect to discuss how I can contribute to your team or project. Let's engineer a brighter future together!
+          </p>
+        </section>
+
+
+
+        <!--
+          - service
+        -->
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">CAD Expertise</h4>
+
+                <p class="service-item-text">
+                  Master the design process with proficiency in SolidWorks for creating 3D models, assemblies, and detailed engineering drawings.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Design & Analysis</h4>
+
+                <p class="service-item-text">
+                  Combine creativity with technical knowledge to design practical solutions, leveraging <b>FEA software like ANSYS</b> to analyze performance and ensure structural integrity.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Manufacturing & Prototyping</h4>
+
+                <p class="service-item-text">
+                  Bridge the gap between design and reality through CAM software like Mastercam for efficient manufacturing and 3D printing tools like Cura for rapid prototyping and iteration.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Collaborative Problem Solver</h4>
+
+                <p class="service-item-text">
+                  Thrive in collaborative environments, utilizing a strong work ethic and quick learning ability to tackle technical challenges and contribute meaningfully to projects.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+       <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Srinivas" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mr. Srinivas Gupta</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Nikhil impressed me with his ability to analyze and optimize the design of our double-threaded bolt.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Satyanarayana" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr. B. Sathyanarayana </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    A well disciplined student and a hardworker. I wish him a bright future.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Nishtha Pattnaik" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nishtha Pattnaik</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Nikhil's leadership and positive attitude were instrumental in driving our team to success.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Santhosh Toorpu" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Santhosh Toorpu</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Nikhil's 3D design skills were invaluable in creating a functional and innovative suspension system for the e-BaHa vehicle.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>kd</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  jimpak
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VNR VIGNANA JYOTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY</h4>
+
+              <span>2022 — 2025</span>
+
+              <p class="timeline-text">
+                Pursuing my Bachelor's degree in Mechanical Engineering at VNR VJIET
+              </p>
+              <p>
+                <b style="color: white;">CGPA: 8.85</b>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Government Polytechnic Warangal</h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                Completed My diploma in Mechanical Engineerinng
+              </p>
+              <p>
+                <b style="color: white;">CGPA: 9.98</b>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Shantinikethan High School</h4>
+
+              <span>2019 Passed</span>
+
+              <p class="timeline-text">
+                Completed my High School from Shantinikethan High School              eos.
+              </p>
+              <p>
+                <b style="color: white;">CGPA: 9.0</b>
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Professional Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Technical Intern - Nala Robotics</h4>
+
+              <span>June 2023 - July 2023</span>
+
+              <p class="timeline-text">
+                Did a two month Internship at Nala Robotics.
+              </p>
+
+            </li>
+
+            
+          </ol>
+
+        </section>
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Co Curricular Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Volunteer - NSS VNR VJIET</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                As a creative head, I have the responsibility of managing the event management team.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Representative - Entrepreneurship development Cell VNR VJIET</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                Worked as a Representative at the Entrepreneurship development Cell.Took part in various events and conducted events that collectively hosted more than 1000 students.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Student Representative - ASME VNR VJIET </h4>
+
+              <span>2023 — present</span>
+
+              <p class="timeline-text">
+                Worked as a Student Representative at ASME.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming and Programming Languages</h5>
+                <data value="70">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">3D Modelling</h5>
+                <data value="90">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CNC Machining</h5>
+                <data value="50">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Designing</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Prototyping</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Modelling</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>E Baha</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>_____</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>_____</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>_____</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>_____</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="_________">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="_________" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">e-BaJa</h3>
+
+                <p class="project-category">Prototyping</p>
+
+              </a>
+            </li>
+
+            <!-- Repeat the above block for each project -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+      
+        <section class="blog-posts">
+      
+          <ul class="blog-posts-list">
+      
+            <li class="blog-post-item">
+              <a href="#">
+      
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Engineering materials overview" loading="lazy">
+                </figure>
+      
+                <div class="blog-content">
+      
+                  <div class="blog-meta">
+                    <p class="blog-category">Mechanical Engineering</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2022-02-23">Feb 23, 2022</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">Engineering materials overview</h3>
+      
+                  <p class="blog-text">
+                    Dive into the world of engineering materials! This blog post provides an overview of various materials used in mechanical engineering, including metals, polymers, and composites. Learn about their properties, applications, and the latest advancements shaping the future of material science.
+                  </p>
+      
+                </div>
+      
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+      
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Latest trends in mechanical design" loading="lazy">
+                </figure>
+      
+                <div class="blog-content">
+      
+                  <div class="blog-meta">
+                    <p class="blog-category">Mechanical Engineering</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2022-02-23">Feb 23, 2022</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">Latest trends in mechanical design</h3>
+      
+                  <p class="blog-text">
+                    Stay ahead of the curve with the latest trends in mechanical design! From additive manufacturing to digital twin technology, this blog post explores innovative approaches revolutionizing the field of mechanical engineering. Discover how these trends are shaping product development and enhancing design efficiency.
+                  </p>
+      
+                </div>
+      
+              </a>
+            </li>
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+      
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5964703253127!2d78.3727655145868!3d17.55260130296492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb95d4b84c1a25%3A0x4c1cf75d1f01fb8d!2sVNR%20Vignana%20Jyothi%20Institute%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!
+              "
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
